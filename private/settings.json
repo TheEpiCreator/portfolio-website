@@ -1,0 +1,32 @@
+{
+    "servers": [
+        {
+            "port": 8080,
+            "type": "http"
+        },
+        {
+            "port": 80,
+            "type": "http"
+        },
+        {
+            "port": 443,
+            "type": "https",
+            "options": {
+                "key_dir": "",
+                "cert_dir": "",
+                "ca_dir": ""
+            }
+        }
+    ],
+    "production": false,
+    "registeredPages": {
+        "404": {
+            "title": "404 | Page Not Found",
+            "frag": "404"
+        },
+        "/": {
+            "title": "test",
+            "frag": "index"
+        }
+    }
+}
